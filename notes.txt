@@ -1,0 +1,19 @@
+Maybe come up with a new metric
+For WR when in zone check against coverage of LB/CB/S
+For WR when in man check against coverage of CB/S
+
+New Defense metric
+Percent of man/zone played by cov groups above = # of cov snaps in man/zone / # of cov snaps in man + zone
+(yards allowed per target (x games) by cov groups in zone/man * Percent of man/zone + (man/zon opposite)) * 0.5
+or
+(yards allowed per target (x games) by cov groups in zone/man * Percent of tgts in man/zone + (man/zone opposite)) * 0.5
+
+New Offensive metric
+Routes run per game * % of opponent scheme by cov groups * yards/Rec per route run in man/zone
+
+Targets per game in man/zone %
+Yards per target (x games) in man/zone 
+
+(Yards per target (x games) in man/zone * % Targets (x games) in man/zone + (man/zone opposite)) * 0.5
+
+Overall YardPTgtScore = (yards allowed per target (x games) by cov groups in zone/man * Percent of tgts in man/zone + (man/zone opposite)) + 0.5 + (Yards per target (x games) in man/zone * % Targets (x games) in man/zone + (man/zone opposite)) * 0.5
