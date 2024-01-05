@@ -2,12 +2,12 @@ from OffPlayerStatsAvg import OffPlayerStatsAvg
 from OffPlayerStatsTotal import OffPlayerStatsTotal
 
 class OffPlayer:
-    def __init__(self, name):
+    def __init__(self, name, team):
         self.name = name
-        self.avgStats = OffPlayerStatsAvg(name)
-        self.totalStats = OffPlayerStatsTotal(name)
-    
-    team = None
-    position = None
-    gamesPlayed2023 = None
-    weekByWeekStats = []
+        self.team = team
+        self.avgStats = OffPlayerStatsAvg(name, team)
+        self.totalStats = OffPlayerStatsTotal(name, team)
+        self.teamAbrv = None
+        self.position = None
+        self.gamesPlayed2023 = None
+        self.weekByWeekStats = []

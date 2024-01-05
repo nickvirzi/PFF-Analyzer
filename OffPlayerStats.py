@@ -1,36 +1,43 @@
 class OffPlayerStats:
-    def __init__(self, name):
+    def __init__(self, name, team):
         self.name = name
+        self.team = team
+        self.week = None
+        self.teamAbrv = None
+        self.position = None
 
-    team = None
-    position = None
+        #One Game Totals
+        self.tgts = None #Receiving Grades
+        self.recs = None #Receiving Grades
+        self.yds = None #Receiving Grades
+        self.recTDs = None #Receiving Grades
+        self.routesRun = None #Receiving Grades
+        self.tgtsPerRouteRun = None #Calc From Receiving Grades
+        self.recsPerRouteRun = None #Calc From Receiving Grades
+        self.ydsPerRouteRun = None #Receiving Grades
+        self.ydsPerTarget = None #Calc From Receiving Grades
+        self.recsPerTarget = None #Calc From Receiving Grades
 
-    #Per Game Totals
-    tgts = None #Receiving Grades
-    recs = None #Receiving Grades
-    yds = None #Receiving Grades
-    recTDs = None #Receiving Grades
-    routesRun = None #Receiving Grades
-    tgtsPerRouteRun = None #Calc From Receiving Grades
-    recsPerRouteRun = None #Calc From Receiving Grades
-    ydsPerRouteRun = None #Receiving Grades
+        #Man One Game Totals
+        self.manTgts = None #Receiving vs Scheme
+        self.manRecs = None #Receiving vs Scheme
+        self.manYds = None #Receiving vs Scheme
+        self.manRecTDs = None #Receiving vs Scheme
+        self.manRoutesRun = None #Calc From Receiving vs Scheme
+        self.manTgtsPerRouteRun = None #Calc From Receiving vs Scheme
+        self.manRecsPerRouteRun = None #Calc From Receiving vs Scheme
+        self.manYdsPerRouteRun = None #Receiving vs Scheme
+        self.manYdsPerTarget = None #Calc From Receiving vs Scheme
+        self.manRecsPerTarget = None #Calc From Receiving vs Scheme
 
-    #Man Per Game Totals
-    manTgts = None #Receiving vs Scheme
-    manRecs = None #Receiving vs Scheme
-    manYds = None #Receiving vs Scheme
-    manRecTDs = None #Receiving vs Scheme
-    manRoutesRun = None #Calc From Receiving vs Scheme
-    manTgtsPerRouteRun = None #Calc From Receiving vs Scheme
-    manRecsPerRouteRun = None #Calc From Receiving vs Scheme
-    manYdsPerRouteRun = None #Receiving vs Scheme
-
-    #Zone Per Game Totals
-    zoneTgts = None #Receiving vs Scheme
-    zoneRecs = None #Receiving vs Scheme
-    zoneYds = None #Receiving vs Scheme
-    zoneRecTDs = None #Receiving vs Scheme
-    zoneRoutesRun = None #Calc From Receiving vs Scheme
-    zoneTgtsPerRouteRun = None #Calc From Receiving vs Scheme
-    zoneRecsPerRouteRun = None #Calc From Receiving vs Scheme
-    zoneYdsPerRouteRun = None #Receiving vs Scheme
+        #Zone One Game Totals
+        self.zoneTgts = None #Receiving vs Scheme
+        self.zoneRecs = None #Receiving vs Scheme
+        self.zoneYds = None #Receiving vs Scheme
+        self.zoneRecTDs = None #Receiving vs Scheme
+        self.zoneRoutesRun = None #Calc From Receiving vs Scheme
+        self.zoneTgtsPerRouteRun = None #Calc From Receiving vs Scheme
+        self.zoneRecsPerRouteRun = None #Calc From Receiving vs Scheme
+        self.zoneYdsPerRouteRun = None #Receiving vs Scheme
+        self.zoneYdsPerTarget = None #Calc From Receiving vs Scheme
+        self.zoneRecsPerTarget = None #Calc From Receiving vs Scheme
