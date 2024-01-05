@@ -17,3 +17,5 @@ Yards per target (x games) in man/zone
 (Yards per target (x games) in man/zone * % Targets (x games) in man/zone + (man/zone opposite)) * 0.5
 
 Overall YardPTgtScore = (yards allowed per target (x games) by cov groups in zone/man * Percent of tgts in man/zone + (man/zone opposite)) + 0.5 + (Yards per target (x games) in man/zone * % Targets (x games) in man/zone + (man/zone opposite)) * 0.5
+
+Slot position could be a valuable metric
