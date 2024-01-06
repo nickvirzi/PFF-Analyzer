@@ -1,5 +1,5 @@
 class Team:
-    def __init__(self, team):
-        self.team = team
+    def __init__(self, teamName):
+        self.teamName = teamName
         self.offensivePlayers = []
         self.defensivePlayers = []

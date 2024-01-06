@@ -9,5 +9,5 @@ class OffPlayer:
         self.totalStats = OffPlayerStatsTotal(name, team)
         self.teamAbrv = None
         self.position = None
-        self.gamesPlayed2023 = None
+        self.gamesPlayed2023 = 0
         self.weekByWeekStats = []
